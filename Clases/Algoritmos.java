@@ -14,7 +14,7 @@ public class Algoritmos {
         if (num <= 1) {
             return false;
         }
-        // divisores desde 2 hasta la raíz cuadrada del número
+        // divisores desde 2 hasta la raiz cuadrada del número
         for (int i = 2; i <= Math.sqrt(num); i++) {
             if (num % i == 0) {
                 return false; 
@@ -29,7 +29,7 @@ public class Algoritmos {
             return null;
         }
         StringBuilder reversa = new StringBuilder();
-        // Recorremos el string desde el ultimo indice hasta el primero
+        // Recorrer el string desde el ultimo indice hasta el primero
         for (int i = texto.length() - 1; i >= 0; i--) {
             reversa.append(texto.charAt(i));
         }
